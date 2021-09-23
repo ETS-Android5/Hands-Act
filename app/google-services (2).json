@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046518912738",
+    "firebase_url": "https://hands-aast.firebaseio.com",
+    "project_id": "hands-aast",
+    "storage_bucket": "hands-aast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046518912738:android:2f7d3199b46cd01602f0bb",
+        "android_client_info": {
+          "package_name": "com.handshands.handsaast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046518912738-3de54ptetagf6co0ciq48u0cubvaia5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.handshands.handsaast",
+            "certificate_hash": "d92ebfe66ba3bc8046d7cea0e812d0aef88097e5"
+          }
+        },
+        {
+          "client_id": "1046518912738-cq7cnndo8ffok1npf1oaftd5qj54lhrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEfyCN9p2DFcN1sWKyf6k1g5vQpYomHJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046518912738-cq7cnndo8ffok1npf1oaftd5qj54lhrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

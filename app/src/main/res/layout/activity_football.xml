@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".football"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:orientation="horizontal"
+        android:background="@drawable/mystadii">
+        
+    </LinearLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginEnd="1dp"
+app:tabTextAppearance="@style/MineCustomTabText"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#000"
+        app:tabTextColor="#fff"
+        android:id="@+id/mytaps1"
+        >
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/scores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scorce"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/scores1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Matches Played"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/topi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Top"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Groups"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Groups"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/league"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hands League"/>
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mypaper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    android:layout_weight="1" />
+
+
+
+
+    </LinearLayout>

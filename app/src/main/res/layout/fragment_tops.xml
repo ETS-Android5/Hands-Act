@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".tops">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="#ffff"
+                            android:text="Top Scorers"
+                            />
+                        <TextView
+                            android:id="@+id/topgoals"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Goals"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/topg"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:clipToPadding="false">
+                        </androidx.recyclerview.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:orientation="vertical">
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+ android:layout_gravity="center"
+    android:src="@drawable/ic_expand_more_black_24dp"
+    android:id="@+id/more1"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="2"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="#ffff"
+                            android:text="Top Assists"
+                            />
+                        <TextView
+                            android:id="@+id/topassists"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Assists"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/topas"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:clipToPadding="false"></androidx.recyclerview.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_expand_more_black_24dp"
+                                android:id="@+id/more2"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="#ffff"
+                            android:text="Top Clean Sheets"
+                            />
+                        <TextView
+                            android:id="@+id/topcleansheet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+android:layout_weight="3"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="CS"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/topcl"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:clipToPadding="false">
+                        </androidx.recyclerview.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_expand_more_black_24dp"
+                                android:id="@+id/more3"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="#ffff"
+                            android:text="Top Managers"
+                            />
+                        <TextView
+                            android:id="@+id/topwins"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Wins"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/topw"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:clipToPadding="false"></androidx.recyclerview.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_expand_more_black_24dp"
+                                android:id="@+id/more4"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

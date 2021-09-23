@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choosepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chonburi"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:text="We can do it Together !"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:text="Name"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_15sdp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namevol"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="textPersonName"
+            android:padding="@dimen/_15sdp"
+            android:textColor="#FFFDFD"
+            android:textColorHint="#FFF8F8" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="4dp"
+            android:background="#FFFFFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#FFF"
+            android:text="Phone Number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonevol"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="phone"
+            android:padding="@dimen/_15sdp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="4dp"
+            android:background="#FFFFFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#FFF"
+            android:text="I Am :"/>
+       <RadioGroup
+           android:id="@+id/choose"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <RadioButton
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/volunteer"
+               android:textStyle="bold"
+               android:textColor="#ffff"
+               android:textSize="@dimen/_20sdp"
+               android:layout_marginStart="@dimen/_30sdp"
+               android:text="Volunteer"/>
+           <RadioButton
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/nonvolunteer"
+               android:textStyle="bold"
+               android:textColor="#ffff"
+               android:textSize="@dimen/_20sdp"
+               android:layout_marginStart="@dimen/_30sdp"
+               android:text="Non Volunteer"/>
+
+       </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#FFF"
+            android:text="Description:"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/description"
+
+            android:backgroundTint="@android:color/transparent"
+            android:padding="@dimen/_15sdp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginTop="4dp"
+            android:background="#FFFFFF" />
+        <Button
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="#E91E63"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="@dimen/_25sdp"
+            android:textAlignment="center"
+            android:text="Done"
+            />
+    </LinearLayout>
+</LinearLayout>

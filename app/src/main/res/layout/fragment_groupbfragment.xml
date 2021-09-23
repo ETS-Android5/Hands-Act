@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".groupbfragment"
+    android:orientation="vertical"
+    android:background="@drawable/mybacli">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/titleknockout"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.5"
+    android:id="@+id/knockouts"
+    android:paddingTop="@dimen/_10sdp"
+    ></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

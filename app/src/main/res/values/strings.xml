@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">handsaast</string>
+    <string name="facebook_app_id">3166625470082628</string>
+    <string name="fb_login_protocol_scheme">fb3166625470082628</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

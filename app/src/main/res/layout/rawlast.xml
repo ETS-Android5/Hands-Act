@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_140sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="11dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginRight="14dp"
+    android:outlineSpotShadowColor="#11e1e2e4"
+   app:cardBackgroundColor="#C51C55">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2.8"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#ffff"
+        android:text=""
+        android:gravity="center|start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/lastgroup"/>
+    <TextView
+        android:id="@+id/lastdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_gravity="center|end"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#ffff"
+        android:layout_marginTop="5dp"
+android:layout_marginRight="@dimen/_10sdp"
+        android:textAlignment="textEnd"
+/>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="3.3dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="15dp"
+        android:background="#efefef"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+    <LinearLayout
+        android:id="@+id/mylay"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/showfirstimg"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:id="@+id/showfirstname"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_25sdp"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:id="@+id/lastresult"
+
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/myseclay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:id="@+id/showsecimg"
+            />
+        <TextView
+            android:id="@+id/showsecname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+<ImageView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/firstplan"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/secplan"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/myid"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/chat"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

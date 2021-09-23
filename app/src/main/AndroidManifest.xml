@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.handshands.handsaast"
+    tools:ignore="LockedOrientationActivity">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+
+    <application
+        android:name=".savemydata"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HANDS ACT"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:supportsRtl">
+        <activity android:name=".showmore9"></activity>
+        <activity android:name=".showmore8" />
+        <activity android:name=".showmore7" />
+        <activity android:name=".showmore6" />
+        <activity android:name=".showmore5" />
+        <activity android:name=".leaguedetails" />
+        <activity android:name=".leagueoflegends" />
+        <activity android:name=".valorantteams" />
+        <activity android:name=".valorantresult" />
+        <activity android:name=".valorant" />
+        <activity android:name=".choosegame" />
+        <activity android:name=".VideoChannel" />
+        <activity android:name=".nonvolunteers" />
+        <activity android:name=".volunteers" />
+        <activity android:name=".choosepage" />
+        <activity android:name=".splashhelp" />
+        <activity
+            android:name=".showvideo"
+            android:screenOrientation="landscape" />
+        <activity android:name=".mymap" />
+        <activity
+            android:name=".myapolo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".offers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".welcomeactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subjects"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".engsubjects"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".engsemester"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".semesters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Studying"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".liveresult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lastresult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".showmore4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".showmore3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".showmore2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".showmore1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".football"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reportpagefornews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
