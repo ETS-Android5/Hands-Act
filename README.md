@@ -1,5 +1,6 @@
 # Hands-Act
 It's an application for student activities in Arab Academy For Science And Technology that try to help student in AAST. Built with java android and using Firebase services.
+That was my Second application but didn't implement and design pattern yet
 
 Developed this app with an amazing features that can help students in AAST:
 
